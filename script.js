@@ -13,7 +13,7 @@ const getText = (imc) => {
     if (imc > 30) return ['obesidade grau I', imc ]; 
     if (imc > 25) return ['levemente acima do peso', imc];
     if (imc > 18.5) return ['Peso ideal', imc];
-    return ['abaixo do peso', imc];
+    return ['abaixo do peso',imc];
 }
 
 const ImcCalc = () =>{
