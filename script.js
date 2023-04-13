@@ -8,12 +8,12 @@ const Resultado2 = document.getElementById('resultado2');
 
 
 const getText = (imc) => {
-    if (imc > 40) return 'obesidade grau III';
-    if (imc > 35) return 'obesidade grau II';
-    if (imc > 30) return 'obesidade grau I';
-    if (imc > 25) return 'levemente acima do peso';
-    if (imc > 18.5) return 'Peso ideal';
-    return 'abaixo do peso';
+    if (imc > 40) return ['obesidade grau III', imc];
+    if (imc > 35) return ['obesidade grau II', imc];
+    if (imc > 30) return ['obesidade grau I', imc ]; 
+    if (imc > 25) return ['levemente acima do peso', imc];
+    if (imc > 18.5) return ['Peso ideal', imc];
+    return ['abaixo do peso', imc];
 }
 
 const ImcCalc = () =>{
