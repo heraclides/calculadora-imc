@@ -10,7 +10,6 @@
 .container {
     width: 50%;
     height: 60%;
-    background-color: #A0A0A0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +18,7 @@
 #dados{
     width: 450px;
     height: 380px;
-    background-color: blanchedalmond;
+    background-color: #c3c3c3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,14 +74,5 @@ input{
 #resultado {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#resultado1 {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#resultado2 {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
